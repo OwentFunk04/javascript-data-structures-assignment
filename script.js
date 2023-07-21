@@ -6,17 +6,17 @@
 //To review, an array is an ordered collection of data where each item is assigned
 //an index starting from 0
 //e.g.
-let mySampleArray = ["Index 0", "Index 1", "Index 2"];
+// let mySampleArray = ["Index 0", "Index 1", "Index 2"];
 
 //An object, is used to store collections of data in a key-value pair format,
 //where each key is a string (although quotes are optional for keys without spaces in them) and
 //the values can be any data type
 
-let mySampleObject = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 50,
-};
+// let mySampleObject = {
+//   firstName: "John",
+//   lastName: "Doe",
+//   age: 50,
+// };
 
 //END OF REVIEW
 
@@ -33,6 +33,25 @@ let mySampleObject = {
 
 //Make sure to make at least 3 animal objects with these keys inside of the myZooAnimals array!
 
-let myZooAnimals;
+let myZooAnimals = [
+  {
+    animalType: "Duck",
+    name: "Harold",
+    age: "6",
+    pictureUrl: "./styles/duck.jpeg"
+  },
+  {
+    animalType: "Horse",
+    name: "Walter Jr",
+    age: "47",
+    pictureUrl: "./styles/horse.jpeg"
+  },
+  {
+    animalType: "Penguin",
+    name: "Rick",
+    age: "-103",
+    pictureUrl: "./styles/penguin.jpeg"
+  }
+];
 
 //END OF ASSIGNMENT
